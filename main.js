@@ -1,9 +1,9 @@
 
 var db = require('./lib/localdb');
  
-db.getRandom(10, function(list){
+db.getRandom(10, onGetRandom(list){
     console.log( list );
-    return;    
+    process.exit(1);    
 });
  
 //db.query('select * from unscrubbed limit 10', function(err, rows, fields) {
