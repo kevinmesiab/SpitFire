@@ -1,0 +1,22 @@
+{
+	"db" : {
+		
+		"list" : {
+			"host"                : "localhost",
+  			"user"                : "",
+  			"password"            : "",
+  			"database"            : ""
+		},
+		/*
+    	
+    	    When returning a random set of emails,
+    	    the default offset and limit for the 
+    	    sql select statement are supplied here.	
+    		
+        */
+		"random" : {
+    		"offset"              : 0,
+    		"count"               : 10000
+		}
+	}
+}

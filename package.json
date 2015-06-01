@@ -1,0 +1,34 @@
+{
+  "name": "firedragon",
+  "version": "1.0.0",
+  "description": "MySql Email Sender for SparkPost SMTP Provider - CLI",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kevinmesiab:n2Dnight@github.com/kevinmesiab/SpitFire.git"
+  },
+  "keywords": [
+    "sparkpost",
+    "bulk",
+    "email",
+    "email",
+    "sender",
+    "email",
+    "marketing",
+    "email"
+  ],
+  "author": "Kevin Mesiab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmesiab/SpitFire/issues"
+  },
+  "homepage": "https://github.com/kevinmesiab/SpitFire",
+  "dependencies": {
+    "config": "^1.13.0",
+    "jshint": "^2.8.0",
+    "mysql": "felixge/node-mysql"
+  }
+}
